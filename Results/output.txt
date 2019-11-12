@@ -1,0 +1,24 @@
+DNN_0_01_H3
+TP:13551 FP:346 TN:9970 FN:2104 Total :25971
+Accuracy : 0.91
+Recall: 0.98
+Precision: 0.87
+finish
+DNN_0_001_H3
+TP:13513 FP:384 TN:9577 FN:2497 Total :25971
+Accuracy : 0.89
+Recall: 0.97
+Precision: 0.84
+finish
+DNN_0_1_H3_2
+TP:13497 FP:400 TN:9871 FN:2203 Total :25971
+Accuracy : 0.9
+Recall: 0.97
+Precision: 0.86
+finish
+DNN_0_1_H3
+TP:13586 FP:311 TN:10049 FN:2025 Total :25971
+Accuracy : 0.91
+Recall: 0.98
+Precision: 0.87
+finish
