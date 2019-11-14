@@ -1,5 +1,5 @@
-#f = open('input.txt')#DNN_0_01_H3.txt')
-fname={'DNN_0_001_H3','DNN_0_01_H3','DNN_0_1_H3','DNN_0_1_H3_2','DNN_0_1_H3'}
+#f = open('input.txt')
+fname={'DNN_0_001_H3','DNN_0_1_H4','DNN_0_01_H3','DNN_0_1_H3','DNN_0_1_H3_2','DNN_0_1_H3'}
 
 for i in fname:
 
@@ -38,14 +38,14 @@ for i in fname:
     print(" TP:" + str(tp) + " FP:" + str(fp) + " TN:" + str(tn)+" FN:"+ str(fn)+ " Total :"+str(tp+tn+fp+fn))
     #9 1 8 2
     print("Accuracy : "+str(round((tp+tn)/(tp+tn+fp+fn),2)))
-    print("Recall: "+str(round(tp/(tp+fp),2))) #condition positive
-    print("Precision: " + str(round(tp/(tp+fn),2))) #prediction positive
+    print("Precision: "+str(round(tp/(tp+fp),2))) #condition positive
+    print("Recall: " + str(round(tp/(tp+fn),2))) #prediction positive
 
     sf=open('output.txt','w')
     sf.write(" TP:" + str(tp) + " FP:" + str(fp) + " TN:" + str(tn)+" FN:"+ str(fn)+ " Total :"+str(tp+tn+fp+fn))
     sf.write(" Accuracy : "+str(round((tp+tn)/(tp+tn+fp+fn),2)))
-    sf.write(" Recall: "+str(round(tp/(tp+fp),2))) #condition positive
-    sf.write(" Precision: " + str(round(tp/(tp+fn),2))) #prediction positive
+    sf.write(" Precision: "+str(round(tp/(tp+fp),2))) #condition positive
+    sf.write(" Recall: " + str(round(tp/(tp+fn),2))) #prediction positive
     sf.close()
     '''
         
